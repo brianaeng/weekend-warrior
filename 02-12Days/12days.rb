@@ -49,8 +49,7 @@ class Xmas
 
     #Loops 12 times to return each verse for a given day
     12.times do
-      song_verse = "#{verse(counter)}"
-      song.push(song_verse)
+      song.push(verse(counter))
       counter += 1
     end
 
