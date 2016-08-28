@@ -1,10 +1,10 @@
 class Xmas
   attr_accessor :gift, :gifts_array, :days
 
-  #Class variable to keep the different days
+  #Class variable to store all days
   @@days = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"]
 
-  #Class variable to keep the different gifts
+  #Class variable to store all gifts
   @@gifts = ["a partridge in a pear tree", "two turtle doves", "three french hens", "four calling birds", "FIVE GOLDEN RINGS",
     "six geese-a-laying", "seven swans-a-swimming", "eight maids-a-milking", "nine ladies dancing", "ten lords-a-leaping",
     "eleven pipers piping", "twelve drummers drumming"]
