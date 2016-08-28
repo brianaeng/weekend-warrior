@@ -2,7 +2,7 @@ class Xmas
   attr_accessor :gift, :gifts_array, :days
 
   #Class variable to store all days
-  @@days = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"]
+  @@days = %w(first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth)
 
   #Class variable to store all gifts
   @@gifts = ["a partridge in a pear tree", "two turtle doves", "three french hens", "four calling birds", "FIVE GOLDEN RINGS",
