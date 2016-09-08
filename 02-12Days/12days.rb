@@ -1,6 +1,6 @@
 class Xmas
   attr_accessor :gift, :gifts_array, :days
-
+  #Make class variables into constants?
   #Class variable to store all days
   @@days = %w(first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth)
 
