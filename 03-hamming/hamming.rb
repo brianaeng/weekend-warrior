@@ -16,9 +16,9 @@ class Hamming
       #Initializes Hamming difference
       ham_diff = 0
 
-      #Compares both arrays by shifting off next item of each, adds to ham_diff if different
+      #Compares both arrays by popping off last item of each, adds to ham_diff if different
       dna1.length.times do
-        if dna1_array.shift != dna2_array.shift
+        if dna1_array.pop != dna2_array.pop
           ham_diff += 1
         end
       end
